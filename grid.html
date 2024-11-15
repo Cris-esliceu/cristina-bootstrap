@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria</title>
+    <title>Grid</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         div .row{
@@ -18,7 +18,7 @@
             <a href="barra_nav.html">NavBar</a>
             <a href="spacing.html">Spacing</a>
             <a href="responsive.html">responsive</a>
-            <a href="grid.html">grid</a>
+            <a href="galeria.html">galeria</a>
         </nav>
     </header>
    <h2>Grid system</h2>
@@ -38,9 +38,37 @@
         <div class=" bg-info col-1">12</div>
     </div>
     <div class="row">
-        <div class="col-2">primera</div>
-        <div class="col-8">segons</div>
-        <div class="col-2">prinera</div>
+        <div class="bg-success col-md-2">primera</div>
+        <div class="bg-info col-md-8">
+            <div class="row">
+                <div class="bg-info col-2">
+                    primera 
+                </div>
+                <div class="bg-danger col-2">
+                    segunda
+                </div>
+                <div class="bg-danger col-2">
+                    segunda
+                </div>
+                <div class="bg-danger col-2">
+                    segunda
+                </div>
+                <div class="bg-danger col-2">
+                    segunda
+                </div>
+                <div class="bg-danger col-2">
+                    segunda
+                </div>
+            </div>
+        </div>
+        <div class="bg bg-success col-md-2">prinera</div>
+    </div>
+    <div class="row">
+        <div class="bg-info col-sm-3">1</div>
+        <div class="col-sm-3">2</div>
+        <div class="bg-danger col-sm-3">3</div>
+        <div class="bg-success col-sm-3">4</div>
+
     </div>
    </div>
 </body>
